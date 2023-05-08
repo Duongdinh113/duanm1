@@ -1,0 +1,666 @@
+/* body {
+    background-color: beige;
+} */
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 38px;
+}
+
+li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    margin: 0px 16px;
+    color: #5D5D5D;
+    font-family: Inter;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #F54748;
+}
+
+.authenticate {
+    display: flex;
+    align-items: center;
+}
+
+.authenticate img {
+    margin-right: 15px;
+}
+
+.authenticate button {
+    height: 42px;
+    margin: 0px 10px;
+    border-radius: 10px;
+}
+
+#signin {
+    color: #F54748;
+    border-color: #F54748;
+}
+
+#signup {
+    background-color: #F54748;
+    color: white;
+    border: none;
+}
+
+#signin a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: #b22828;
+    font-weight: 700;
+}
+
+#signup a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: #b22828;
+    font-weight: 700;
+}
+
+
+/*-------------------------------*/
+
+
+/* Tiêu đề*/
+
+.dis button {
+    padding-left: 24px;
+    padding-right: 25px;
+    padding-top: 11px;
+    padding-bottom: 12px;
+    border-radius: 10px;
+    border: none;
+    color: #F54748;
+    font-family: 'Inter';
+    font-size: 18px;
+}
+
+.check button {
+    padding-left: 35px;
+    padding-right: 54px;
+    padding-top: 21px;
+    padding-bottom: 22px;
+    position: absolute;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #F54748;
+    color: white;
+    border-color: #F54748;
+    font-size: 16px;
+}
+
+.check input {
+    padding-left: 16px;
+    padding-right: 91px;
+    padding-top: 22px;
+    padding-bottom: 23px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-color: #F54748;
+}
+
+.tieude p {
+    padding-bottom: 33px;
+    color: #5D5D5D;
+    font-family: 'Inter';
+}
+
+.banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    padding-top: 65px;
+    padding-bottom: 100px;
+}
+
+.anhmh img {
+    width: 100%;
+}
+
+.tieude {
+    margin: auto 0px;
+}
+
+.tieude h1 {
+    font-size: 72px;
+}
+
+.pic img {
+    width: 100%;
+}
+
+
+/*-------------------------------*
+/* sản phẩm */
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    height: 500px;
+}
+
+.product img {
+    width: 300px;
+    height: 300px;
+}
+
+.div {
+    overflow: hidden;
+}
+
+.div img {
+    transition-duration: 0.3s;
+}
+
+.div img:hover {
+    transform: scale(1.1);
+}
+
+.trangchu {
+    height: 450px;
+    border-radius: 5px;
+    border: 1px solid #360cdc;
+}
+
+.product .div {
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.product h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.boxs {
+    padding-left: 5%;
+}
+
+.boxs p {
+    font-size: 20px;
+    justify-content: center;
+}
+
+.boxs span {
+    font-size: 23px;
+    font-weight: 600;
+    padding-right: 10%;
+    color: red;
+}
+
+.mr {
+    margin-top: 50px;
+}
+
+.mr1 {
+    margin-top: 10px;
+}
+
+.showadd h1 {
+    text-align: center;
+}
+
+.tips {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+
+/* .tips {
+    width: 300px;
+    height: 300px;
+} */
+
+.tips img {
+    transition: 1s;
+    margin-top: 20px;
+}
+
+.tips img:hover {
+    transform: scale(1.1);
+}
+
+.tips-box {
+    border-radius: 10px;
+}
+
+.tips-box p {
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 10%;
+}
+
+
+/* FOOTER */
+
+/* .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 100px;
+} */
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* width: 413px; */
+    grid-column-gap: 20px;
+    /* margin-left: 242px; */
+  }
+  
+  .content-item {
+    font-size: 13px;
+    /* height: 500px; */
+    /* position: relative; */
+    box-shadow: 1px 5px 10px grey;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 414px;
+  }
+  
+  .content-item img {
+    height: 310px;
+    /* width: 413px; */
+  }
+  
+  .content-item p {
+    font-size: 15px;
+    color: #1a1f24;
+    line-height: 21px;
+    margin-left: 31px;
+  }
+  
+  .content-item button {
+    background-color: #0ea2bd;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    /* margin-left: 240px;
+    margin-top: 30px; */
+    width: 134px;
+    height: 38px;
+    align-self: end;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .category-recent .small1 {
+    font-size: 12px;
+    color: #babbbd;
+    margin-top: 10px;
+  }
+  
+  .time-item span {
+    color: #b5b9bd;
+  }
+  
+  .time-item {
+    /* margin-left: 150px;
+    margin-top: 30px;
+    margin-bottom: 20px; */
+    margin: 30px 0 34px 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #90979d;
+  }
+  
+  .time-item span:first-child {
+    margin: 0 43px 0 50px;
+  }
+  
+  .time-item span:last-child {
+    margin-left: 80px;
+  }
+  
+  .content-item p {
+    font-size: 15px;
+    color: #4e5154;
+    line-height: 21px;
+    margin-left: 31px;
+  }
+  
+  .content-item:first-child p {
+    width: 320px;
+    height: 90px;
+  }
+  
+  .tag-item:hover {
+    color: #20bbd7;
+    background-color: grey;
+  }
+  
+  .paging ul li {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    transition: 1s linear;
+  }
+  
+  .paging ul li:hover {
+    background-color: #0ea2bd;
+  }
+  
+  .footer {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px 60px;
+    border-bottom: 1px solid black;
+    background-color: beige;
+  }
+  
+  .footer-address h2 {
+    padding-bottom: 20px;
+  }
+  
+  .footer-address p {
+    font-size: 15px;
+  }
+  
+  .footer-address .address {
+    margin-bottom: 20px;
+  }
+  
+  .footer-address {
+    margin-left: 20px;
+  }
+  
+  .footer-nav h3 {
+    padding-bottom: 20px;
+  }
+  
+  .nav1 h3 {
+    padding-bottom: 20px;
+  }
+  
+  .contaect h3 {
+    padding-bottom: 20px;
+  }
+  
+  .footer-contaect input {
+    height: 30px;
+    width: 300px;
+  }
+  
+  .footer-contaect button {
+    border: 1px;
+    height: 30px;
+    background-color: #0ea2bd;
+    width: 110px;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 3px;
+  }
+  
+  .sub-footer {
+    display: flex;
+    background-color:antiquewhite;
+    padding: 20px 215px;
+    justify-content: space-between;
+  }
+  
+
+  .designed span {
+    font-size: 13px;
+  }
+  
+  .designed a {
+    text-decoration: none;
+    color: #0ea2bd;
+    font-size: 12px;
+  }
+  
+  .block {
+    display: flex;
+  }
+  
+  .block .block-same {
+    width: 35px;
+    height: 35px;
+    background-color: #4e5a65;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .block .block-same:hover {
+    background-color: grey;
+  }
+  
+  .sub-footer .end {
+    margin: 10px 40px;
+    font-size: 13px;
+  }
+  
+  .sub-footer .end span {
+    margin: 10px;
+  }
+  
+
+.formdk h2 {
+    text-align: center;
+}
+
+.formdk label {
+    font-size: 20px;
+}
+
+.formdk input {
+    max-width: 400px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #cdcd;
+}
+
+#ShowErr button {
+    max-width: 300px;
+    height: 50px;
+    background-color: rgb(79, 175, 20);
+    font-size: 25px;
+    margin-top: 30px;
+    color: #fff;
+    border: 1px solid #cdcd;
+    border-radius: 3px;
+    margin-left: 10%;
+}
+
+#ShowErr button:hover {
+    background-color: red;
+}
+
+.dangnhap .dangnhap1 button {
+    height: 40px;
+    max-width: 150px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    background: rgb(185, 110, 31);
+}
+
+.dangnhap .dangnhap1 button:hover {
+    max-width: 200px;
+    height: 40px;
+    background-color: blue;
+}
+
+.dangnhap2 {
+    border-radius: 5px;
+    height: 55px;
+    max-width: 250px;
+    border: 1px solid #cdcd;
+}
+
+.dangnhap .dangnhap2 button {
+    max-width: 250px;
+    border: none;
+    background: #fff;
+}
+
+.dangnhap2 button img {
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.dangnhap3 button {
+    max-width: 150px;
+    border: none;
+    border-radius: 2px;
+    height: 30px;
+    background: rgb(16, 150, 79);
+}
+
+.dangnhap3 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.dangnhap3 button:hover {
+    max-width: 200px;
+    border: none;
+    border-radius: 2px;
+    height: 39px;
+    background: rgb(32, 6, 103);
+}
+
+.dangnhap3 p {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.anh2 img {
+    height: 300px;
+    max-width: 400px;
+    margin: 30px;
+}
+
+
+/* sản phẩm  */
+
+.sanpham a {
+    text-decoration: none;
+}
+
+.sanpham h1 {
+    text-decoration: none;
+    margin-top: 10%;
+}
+
+.sp-box {
+    height: 500px;
+    max-width: 300px;
+    border: 1px solid rgba(15, 125, 15, 0.867);
+    margin-top: 20%;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sanpham a:hover {
+    color: red;
+}
+
+.sanpham2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 10%;
+    gap: 20px;
+}
+
+.sp-box img:hover {
+    transition: 1s;
+}
+
+.sp-box img:hover {
+    transform: scale(1.3);
+}
+
+
+/* chi tiết sản phẩm  */
+
+.ctsp-button .button button {
+    max-width: 200px;
+    height: 50px;
+}
+
+.ctsp-button a {
+    text-decoration: none;
+}
+
+
+/**/
+
+.item1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.item1 button {
+    padding-left: 25px;
+    padding-right: 24px;
+    border-radius: 5px;
+    border-color: #F54748;
+    color: #F54748;
+    background-color: white;
+}
+
+.item2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 100px;
+}
+
+.item2-1 {
+    text-align: center;
+}
+
+.item2-1 h3 {
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+.item2-1 img {
+    width: 100%;
+    border-radius: 10px;
+}
+
